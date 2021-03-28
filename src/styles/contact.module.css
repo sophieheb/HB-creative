@@ -1,0 +1,6 @@
+.banner {
+    background: url('../assets/contact-banner.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}

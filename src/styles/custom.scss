@@ -1,0 +1,248 @@
+// Override default variables before the import
+$body-bg:#feffff;
+$body-color: #a7624f;
+$font-family-sans-serif: 'Libre Baskerville', serif;;
+$theme-colors: (
+"primary": #a7624f,
+"secondary": #feffff,
+"pink": #fdefe9,
+);
+
+$bg-variant: (
+"bg-red": #a7624f,
+);
+
+@media (min-width: 768px) {  
+
+}
+
+// Buttons
+$border-radius: 0px;
+$btn-border-radius-lg:0px;
+$btn-border-radius-sm:0px;
+$input-btn-padding-x-lg: 2.5rem;
+$input-btn-padding-y-lg: .15rem;
+$btn-padding-y: 1rem;
+$btn-padding-x: 3rem;
+// $btn-font-size //TODO: what size should this be?
+.btn-primary{
+    color: #fdefe9 !important;
+}
+
+
+// h1 {
+//     font-family: SyneBold;
+//     font-size: 50px !important;
+//     margin-bottom: 1.5rem !important;
+// }
+
+// h2 {
+//     font-family: GalanoGrotesque;
+//     font-size: 18px !important
+// }
+
+// h3 {
+//     font-family: SyneBold;
+//     font-size: 26px !important;
+//     margin-bottom: 1.5rem !important;
+//     line-height: 1.5rem;
+// }
+
+p {
+    font-size: 18px !important
+}
+
+li {
+    font-size: 18px !important
+}
+
+span {
+    font-family: ClearFace
+}
+
+
+// Navigation
+.nav-link {
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    padding: 4rem;
+}
+
+$navbar-dark-color: #fdefe9;
+$navbar-dark-hover-color:#fdefe9;
+$navbar-light-color:#a7624f;
+$navbar-light-hover-color: #fdefe9;
+$navbar-nav-link-padding-x:2.5rem;
+
+
+// Dividers
+hr {
+    border-top: 1.5px solid #a7624f !important;
+}
+
+
+@media (min-width: 1px) {
+    .w-xs-100 {
+    width:100%!important;
+    }
+    .w-xs-75 {
+    width:75%!important;
+    }
+    .w-xs-50 {
+    width:50%!important;
+    }
+    .w-xs-25 {
+    width:25%!important;
+    }
+    .h-xs-100 {
+    height:100%!important;
+    }
+    .h-xs-75 {
+    height:75%!important;
+    }
+    .h-xs-50 {
+    height:50%!important;
+    }
+    .h-xs-25 {
+    height:25%!important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .w-sm-100 {
+    width:100%!important;
+    }
+    .w-sm-75 {
+    width:75%!important;
+    }
+    .w-sm-50 {
+    width:50%!important;
+    }
+    .w-sm-25 {
+    width:25%!important;
+    }
+    .h-sm-100 {
+    height:100%!important;
+    }
+    .h-sm-75 {
+    height:75%!important;
+    }
+    .h-sm-50 {
+    height:50%!important;
+    }
+    .h-sm-25 {
+    height:25%!important;
+    }
+    }
+    
+    /* Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) {
+    .w-md-100 {
+    width:100%!important;
+    }
+    .w-md-75 {
+    width:75%!important;
+    }
+    .w-md-50 {
+    width:50%!important;
+    }
+    .w-md-25 {
+    width:25%!important;
+    }
+    .h-md-100 {
+    height:100%!important;
+    }
+    .h-md-75 {
+    height:75%!important;
+    }
+    .h-md-50 {
+    height:50%!important;
+    }
+    .h-md-25 {
+    height:25%!important;
+    }
+    }
+    
+    /* Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+    .w-lg-100 {
+    width:100%!important;
+    }
+    .w-lg-75 {
+    width:75%!important;
+    }
+    .w-lg-50 {
+    width:50%!important;
+    }
+    .w-lg-25 {
+    width:25%!important;
+    }
+    .h-lg-100 {
+    height:100%!important;
+    }
+    .h-lg-75 {
+    height:75%!important;
+    }
+    .h-lg-50 {
+    height:50%!important;
+    }
+    .h-lg-25 {
+    height:25%!important;
+    }
+    }
+    
+    /* Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+    .w-xl-100 {
+    width:100%!important;
+    }
+    .w-xl-75 {
+    width:75%!important;
+    }
+    .w-xl-50 {
+    width:50%!important;
+    }
+    .w-xl-25 {
+    width:25%!important;
+    }
+    .h-xl-100 {
+    height:100%!important;
+    }
+    .h-xl-75 {
+    height:75%!important;
+    }
+    .h-xl-50 {
+    height:50%!important;
+    }
+    .h-xl-25 {
+    height:25%!important;
+    }
+    }
+
+
+@media (max-width: 768px) {  
+    h1 {
+        font-size: 27px !important;
+    }
+    
+    h2 {
+        font-size: 12px  !important
+    }
+    
+    h3 {
+        font-size: 16px !important
+    }
+    
+    p {
+        font-size: 14px !important;
+    }
+    li {
+        font-size: 14px !important;
+    }
+    .btn {
+        font-size: 16px !important;
+    }
+}
+
+@import '~bootstrap/scss/bootstrap';
