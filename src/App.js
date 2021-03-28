@@ -1,5 +1,5 @@
 import React, { Suspense, lazy } from 'react';
-import BarLoader from 'react-spinners/BarLoader';
+// import BarLoader from 'react-spinners/BarLoader';
 import { Helmet } from 'react-helmet';
 import {
   BrowserRouter as Router,
@@ -58,11 +58,12 @@ function App() {
       </Helmet>
       <Router>
         <Suspense fallback={(
-          <BarLoader
-            height={10}
-            color="#031799"
-            width="100%"
-          />
+          <div/>
+          // <BarLoader
+          //   height={10}
+          //   color="#031799"
+          //   width="100%"
+          // />
         )}
         >
           <div className="d-flex min-vh-100 flex-column justify-content-between">
