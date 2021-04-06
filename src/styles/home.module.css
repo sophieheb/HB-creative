@@ -1,0 +1,20 @@
+.topBanner {
+    background: url('../assets/home-banner.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bottomBanner {
+    background: url('../assets/painting1.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    top:52px;
+}
+
+.quote {
+    font-size: 64px !important;
+    font-family: 'Cedarville Cursive', cursive;
+    z-index: 50;
+}
