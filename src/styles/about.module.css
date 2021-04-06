@@ -1,12 +1,12 @@
 .topBanner {
-    background: url('../assets/about-banner.png');
+    background: url('../assets/works1.png');
     height: 75vh;
     background-size: cover;
     background-position: bottom;
 }
 
 .bottomBanner {
-    background: url('../assets/about-bottom-banner.png');
+    background: url('../assets/works6.png');
     height: 50vh;
     background-size: cover;
     background-position: center;

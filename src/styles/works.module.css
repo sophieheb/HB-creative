@@ -1,0 +1,6 @@
+.banner {
+    background: url('../assets/works3.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}

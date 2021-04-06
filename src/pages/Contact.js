@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles from '../styles/contact.module.css';
 
-import sofaPic from '../assets/contact-sofa.png';
+import sofaPic from '../assets/works7.png';
 
 function Contact() {
   return (

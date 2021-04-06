@@ -3,9 +3,9 @@ import styles from '../styles/about.module.css';
 
 import brushPic from '../assets/brush.png';
 
-import inspirationPic from '../assets/inspiration.png';
+import inspirationPic from '../assets/works3.png';
 
-import workingTogether from '../assets/working-together.png';
+import workingTogether from '../assets/works9.png';
 
 
 function About() {

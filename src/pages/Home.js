@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/home.module.css';
 
-import video from '../assets/painting1.png';
+import video from '../assets/works5.png';
 import hollyPic from '../assets/holly.png';
 import workingTogether from '../assets/working-together-home.png';
 
