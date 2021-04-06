@@ -1,0 +1,13 @@
+.topBanner {
+    background: url('../assets/about-banner.png');
+    height: 75vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bottomBanner {
+    background: url('../assets/about-bottom-banner.png');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}

@@ -45,7 +45,7 @@ function Header({ headerColor }) {
           <Navbar.Brand href="/" className="col-2 mr-0 py-4 text-center">
             <img
               src={logo}
-              className="w-50 img-fluid"
+              className="w-md-50"
               alt="HB Creative logo"
             />
           </Navbar.Brand>

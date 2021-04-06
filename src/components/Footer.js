@@ -31,14 +31,14 @@ function Footer() {
         </Nav>
       </Navbar>
       <div className="row justify-content-center">
-        <a href="https://facebook.com/holsyb_creative/">
+        <a href="https://www.facebook.com/HollyButlerCreative">
           <img
             src={facebookLogo}
             alt="Facebook logo"
             className="pr-1 h-75"
           />
         </a>
-        <a href="https://www.instagram.com/holsyb_creative/">
+        <a href="https://www.instagram.com/h.b_creative/">
           <img
             src={instagramLogo}
             alt="Instagram logo"
