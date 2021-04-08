@@ -15,7 +15,7 @@ const Works = lazy(() => import('./pages/Works'));
 const About = lazy(() => import('./pages/About'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
-function Routes({ setHeaderColour }) {
+function Routes() {
   return (
 
     <Switch>
@@ -58,7 +58,7 @@ function App() {
       </Helmet>
       <Router>
         <Suspense fallback={(
-          <div/>
+          <div />
           // <BarLoader
           //   height={10}
           //   color="#031799"

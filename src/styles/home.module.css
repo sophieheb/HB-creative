@@ -18,3 +18,9 @@
     font-family: 'Cedarville Cursive', cursive;
     z-index: 50;
 }
+
+@media (max-width: 768px){
+    .quote {
+        font-size: 32px !important;
+    }
+}

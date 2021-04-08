@@ -6,7 +6,7 @@ import {
   MobileView,
 } from 'react-device-detect';
 import styles from '../styles/header.module.css';
-import Burger from './Burger'
+import Burger from './Burger';
 import facebookLogo from '../assets/facebookLogoDark.svg';
 import instagramLogo from '../assets/instagramLogoDark.svg';
 import logo from '../assets/logo-dark.png';
@@ -45,51 +45,53 @@ function Header() {
       </BrowserView>
 
       <MobileView>
-        <div className={`w-100 d-flex flex-column`}>
+        <div className="container-fluid">
           <div className="row">
-          <Navbar >
-          <Burger className="col-4" collapsed={collapsed} setCollapsed={() => setCollapsed(!collapsed)} />
-            <Navbar.Brand href="/" className="col-4">
-              <img
-                src={logo}
-                className="w-100"
-                alt="HB Creative Logo"
-              />
-            </Navbar.Brand>
-            <div className="col-4">
+            <Navbar>
+              <Burger className="col-4" collapsed={collapsed} setCollapsed={() => setCollapsed(!collapsed)} />
+              <Navbar.Brand href="/" className="col-4 mr-0 text-center">
+                <img
+                  src={logo}
+                  className="w-100"
+                  alt="HB Creative Logo"
+                />
+              </Navbar.Brand>
+              <div className="col-4 text-center">
+                <div className="row justify-content-center">
+                  <a href="https://www.instagram.com/h.b_creative/">
+                    <img
+                      src={instagramLogo}
+                      alt="Instagram logo"
+                      className="pr-1 h-75"
+                    />
+                  </a>
+                  <a href="https://www.facebook.com/HollyButlerCreative">
+                    <img
+                      src={facebookLogo}
+                      alt="Facebook logo"
+                      className="pl-1 h-75"
+                    />
+                  </a>
 
-        <a href="https://www.instagram.com/h.b_creative/">
-          <img
-            src={instagramLogo}
-            alt="Instagram logo"
-            className="pr-1 h-50"
-          />
-        </a>
-        <a href="https://www.facebook.com/HollyButlerCreative">
-          <img
-            src={facebookLogo}
-            alt="Facebook logo"
-            className="pl-1 h-50"
-          />
-        </a>
-      </div>
-            
-          </Navbar>
-          </div>
-    <div className={`w-100 d-flex flex-column position-relative`}>
-          {collapsed ? null
-            : (
-              <div className={`row vh-100 position-absolute ${styles.menu}`}>
-                  <Nav className="flex-column px-5 pt-5">
-                  <Nav.Link href="home" className="text-secondary align-center">HOME</Nav.Link>
-                  <Nav.Link href="works" className="text-secondary">WORKS</Nav.Link>
-                  <Nav.Link href="shop" className="text-secondary">SHOP</Nav.Link>
-                  <Nav.Link href="about" className="text-secondary">ABOUT</Nav.Link>
-                   <Nav.Link href="contact" className="text-secondary">CONTACT</Nav.Link>
-                  </Nav>
+                </div>
               </div>
-            )}
-        </div>
+
+            </Navbar>
+          </div>
+          <div className="w-100 d-flex flex-column position-relative">
+            {collapsed ? null
+              : (
+                <div className={`row vh-100 position-absolute ${styles.menu}`}>
+                  <Nav className="flex-column px-5 pt-5">
+                    <Nav.Link href="/" className="text-secondary text-center">HOME</Nav.Link>
+                    <Nav.Link href="works" className="text-secondary text-center">WORKS</Nav.Link>
+                    <Nav.Link href="shop" className="text-secondary text-center">SHOP</Nav.Link>
+                    <Nav.Link href="about" className="text-secondary text-center">ABOUT</Nav.Link>
+                    <Nav.Link href="contact" className="text-secondary text-center">CONTACT</Nav.Link>
+                  </Nav>
+                </div>
+              )}
+          </div>
         </div>
 
       </MobileView>
