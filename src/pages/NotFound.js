@@ -1,6 +1,6 @@
 import React from 'react';
 
-import image from '../assets/works7.png';
+import image from '../assets/works-7.png';
 
 function NotFound() {
   return (

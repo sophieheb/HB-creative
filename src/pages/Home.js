@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from '../styles/home.module.css';
 
-import video from '../assets/works5.png';
+import brushes from '../assets/brushes.png';
 import hollyPic from '../assets/holly.png';
-import workingTogether from '../assets/working-together-home.png';
+import workingTogether from '../assets/works-1.png';
 
 function Home() {
   return (
@@ -25,7 +25,7 @@ function Home() {
         <div className="row justify-content-end">
           <div className="col-12 col-md-10 pr-0 pl-4 my-5">
             <img
-              src={video}
+              src={brushes}
               className="img-fluid"
               alt="HB Creative logo"
             />
@@ -72,16 +72,11 @@ function Home() {
         </div>
 
       </div>
-      <div className="container-fluid">
-        <div className="row position-relative vh-50 mb-5 overflow-hidden">
-          <p className={`${styles.quote} w-75 pl-5`}>&quot;... the sound of waves peacefully crushing on the sand, the smell of salty air.&quot;</p>
-          <div className={`container-fluid p-0 pt-3 position-absolute  ${styles.bottomBanner}`} />
-        </div>
-      </div>
+      <div className={`container-fluid p-0 ${styles.bottomBanner}`}/>
 
       <div className="container-fluid">
         <div className="row py-5 mt-5">
-          <div className="col-11 col-md-6 pl-0">
+          <div className="col-11 col-md-6 pl-0 pr-md-4 pr-0">
             <h1 className="text-right pl-4">WORKING TOGETHER</h1>
             <hr className="my-5" />
             <p className="ml-5 pl-md-5 pl-0 pr-4">
@@ -94,9 +89,7 @@ function Home() {
               <button className="btn btn-primary" type="button">CONTACT</button>
             </div>
           </div>
-        </div>
-        <div className="row justify-content-end">
-          <div className="col-12 col-md-10 pr-0 pl-4 my-5">
+          <div className="col-12 col-md-6 pr-0 pl-4 my-5 my-md-0 mb-md-0">
             <img
               src={workingTogether}
               className="img-fluid"

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/contact.module.css';
 
-import sofaPic from '../assets/works7.png';
+import contactPic from '../assets/works-2.png';
 
 function Contact() {
   return (
@@ -10,7 +10,7 @@ function Contact() {
 
       <div className="container-fluid">
         <div className="row py-5 mt-5">
-          <div className="col-11 col-md-6 pl-0">
+          <div className="col-11 col-md-6 pl-0 pr-md-4 pr-0">
             <h1 className="text-right pl-4">GET IN TOUCH</h1>
             <hr className="my-5" />
             <p className="ml-5 pl-md-5 pl-0 pr-4">
@@ -21,11 +21,9 @@ function Contact() {
               <button className="btn btn-primary" type="button">CONTACT</button>
             </div>
           </div>
-        </div>
-        <div className="row justify-content-end">
-          <div className="col-12 col-md-10 pr-0 pl-4 my-5">
+          <div className="col-12 col-md-6 pr-0 pl-4 my-5  my-md-0 mb-md-0">
             <img
-              src={sofaPic}
+              src={contactPic}
               className="img-fluid"
               alt="HB Creative logo"
             />

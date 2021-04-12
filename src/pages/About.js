@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from '../styles/about.module.css';
 
-import brushPic from '../assets/brush.png';
+import holly from '../assets/about-holly.png';
 
-import inspirationPic from '../assets/works3.png';
+import brush from '../assets/brush.jpg';
 
-import workingTogether from '../assets/works9.png';
+import workingTogether from '../assets/works-7.png';
 
 function About() {
   return (
@@ -28,7 +28,7 @@ function About() {
         <div className="row justify-content-end">
           <div className="col-12 col-md-10 pr-0 pl-4 my-5">
             <img
-              src={brushPic}
+              src={holly}
               className="img-fluid"
               alt="HB Creative logo"
             />
@@ -40,7 +40,7 @@ function About() {
         <div className="row py-5 my-5 mt-5">
           <div className="col-12 col-md-6 pl-0 pr-4">
             <img
-              src={inspirationPic}
+              src={brush}
               className="img-fluid"
               alt="HB Creative logo"
             />
@@ -76,7 +76,7 @@ function About() {
 
       <div className="container-fluid">
         <div className="row py-5 mt-5">
-          <div className="col-11 col-md-6 pl-0">
+        <div className="col-11 col-md-6 pl-0 pr-md-4 pr-0">
             <h1 className="text-right pl-4">WORKING TOGETHER</h1>
             <hr className="my-5" />
             <p className="ml-5 pl-md-5 pl-0 pr-4">
@@ -85,10 +85,8 @@ function About() {
               people want my work hung in their house.
               It&apos;s a real honour for me. So I&apos;d love to hear from you, just get in touch.
             </p>
-          </div>
         </div>
-        <div className="row justify-content-end">
-          <div className="col-12 col-md-10 pr-0 pl-4 my-5">
+        <div className="col-12 col-md-6 pr-0 pl-4 my-5 my-md-0 mb-md-0">
             <img
               src={workingTogether}
               className="img-fluid"

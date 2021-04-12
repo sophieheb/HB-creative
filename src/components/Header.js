@@ -24,20 +24,20 @@ function Header() {
       <BrowserView>
 
         <Navbar
-          className="row mx-5 navbar-light"
+          className="mx-5 navbar-light"
         >
-          <Nav className="col-5 ">
+          <Nav className="col-5 col-md-4 bg-primary">
             <Nav.Link href="works">WORKS</Nav.Link>
             <Nav.Link href="shop">SHOP</Nav.Link>
           </Nav>
-          <Navbar.Brand href="/" className="col-2 mr-0 py-4 text-center">
+          <Navbar.Brand href="/" className="col-2 col-md-4 mr-0 py-4 text-center">
             <img
               src={logo}
-              className="w-md-50"
+              className="w-md-50 w-100"
               alt="HB Creative logo"
             />
           </Navbar.Brand>
-          <Nav className="col-5 d-flex justify-content-end ">
+          <Nav className="col-5 col-md-4 d-flex justify-content-end bg-primary ">
             <Nav.Link href="about">ABOUT</Nav.Link>
             <Nav.Link href="contact">CONTACT</Nav.Link>
           </Nav>
