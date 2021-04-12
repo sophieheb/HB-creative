@@ -26,20 +26,32 @@ function Header() {
         <Navbar
           className="mx-5 navbar-light"
         >
-          <Nav className="col-5 col-md-4 bg-primary">
-            <Nav.Link href="works">WORKS</Nav.Link>
-            <Nav.Link href="shop">SHOP</Nav.Link>
+          <Nav className="col-5 col-md-4 flex-column flex-md-row">
+            <div className="row w-100">
+              <Nav.Link href="works" className=" text-left text-md-center col-12 col-md-6 p-0">
+                WORKS
+              </Nav.Link>
+              <Nav.Link href="shop" className=" text-left text-md-center col-12 col-md-6 p-0">
+                SHOP
+              </Nav.Link>
+            </div>
           </Nav>
-          <Navbar.Brand href="/" className="col-2 col-md-4 mr-0 py-4 text-center">
+          <Navbar.Brand href="/" className="col-2 col-md-4 mr-0 py-sm-4 py-0 text-center">
             <img
               src={logo}
-              className="w-md-50 w-100"
+              className="w-md-50 w-xs-100"
               alt="HB Creative logo"
             />
           </Navbar.Brand>
-          <Nav className="col-5 col-md-4 d-flex justify-content-end bg-primary ">
-            <Nav.Link href="about">ABOUT</Nav.Link>
-            <Nav.Link href="contact">CONTACT</Nav.Link>
+          <Nav className="col-5 col-md-4 d-flex justify-content-end flex-column flex-md-row">
+            <div className="row w-100">
+              <Nav.Link href="about" className="text-right text-md-center col-12 col-md-6 p-0">
+                ABOUT
+              </Nav.Link>
+              <Nav.Link href="contact" className="text-right  text-md-center  col-12 col-md-6 p-0">
+                CONTACT
+              </Nav.Link>
+            </div>
           </Nav>
         </Navbar>
       </BrowserView>

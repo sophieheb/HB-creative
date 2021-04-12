@@ -48,7 +48,7 @@ function App() {
         {/* <meta property="og:url" content="techniclarity.co" /> */}
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Every painting has a story, each, a one-of- a-kind, envoking a sense of that soul-re- newing stillness; that deep breath you take when you reach the seashore." />
-        <meta property="og:title" content="Techniclarity" />
+        <meta property="og:title" content="HB Creative" />
         {/* <meta property="og:image" content={womanMiddle} /> */}
         <meta property="og:site_name" content="HB Creative" />
         <meta name="twitter:title" content="HB Creative" />

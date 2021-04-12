@@ -27,7 +27,7 @@ function Home() {
             <img
               src={brushes}
               className="img-fluid"
-              alt="HB Creative logo"
+              alt="Holly's brushes."
             />
           </div>
         </div>
@@ -39,7 +39,7 @@ function Home() {
             <img
               src={hollyPic}
               className="img-fluid"
-              alt="HB Creative logo"
+              alt="Holly infront of her work"
             />
           </div>
           <div className="col-12 col-md-6  pt-5 pt-md-0 pl-5 pr-0">
@@ -63,16 +63,15 @@ function Home() {
 
               </div>
               <p>Check out my full bio for more.</p>
-              <div>
-                <button className="btn btn-primary" type="button">ABOUT</button>
-              </div>
+              <a className="btn btn-primary" type="button" href="/about">ABOUT</a>
+
             </div>
           </div>
 
         </div>
 
       </div>
-      <div className={`container-fluid p-0 ${styles.bottomBanner}`}/>
+      <div className={`container-fluid p-0 ${styles.bottomBanner}`} />
 
       <div className="container-fluid">
         <div className="row py-5 mt-5">
@@ -86,14 +85,14 @@ function Home() {
               unique pieces for clients or bespoke commissions.
             </p>
             <div className="ml-5 pl-md-5 pl-0 ">
-              <button className="btn btn-primary" type="button">CONTACT</button>
+              <a className="btn btn-primary" type="button" href="/contact">CONTACT</a>
             </div>
           </div>
           <div className="col-12 col-md-6 pr-0 pl-4 my-5 my-md-0 mb-md-0">
             <img
               src={workingTogether}
               className="img-fluid"
-              alt="HB Creative logo"
+              alt="Holly's work in a home setting"
             />
           </div>
         </div>

@@ -13,7 +13,7 @@ function NotFound() {
             This page doesn&apos;t exist. You&apos;ll probably want to head back to the homepage.
           </p>
           <div className="ml-5 pl-md-5 pl-0">
-            <button className="btn btn-primary" type="button">GO HOME</button>
+            <a className="btn btn-primary" type="button" href="/home">GO HOME</a>
           </div>
         </div>
       </div>
