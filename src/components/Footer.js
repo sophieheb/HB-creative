@@ -20,25 +20,25 @@ function Footer() {
       <div
         className="row mx-auto py-4 justify-content-center"
       >
-        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="/">HOME</a>
-        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="works">WORKS</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center py-md-0 py-4`} href="/">HOME</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center py-md-0 py-4`} href="works">WORKS</a>
 
-        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="about">ABOUT</a>
-        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="contact">CONTACT</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center py-md-0 py-4`} href="about">ABOUT</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center py-md-0 py-4`} href="contact">CONTACT</a>
       </div>
       <div className="row justify-content-center">
         <a href="https://www.facebook.com/HollyButlerCreative">
           <img
             src={facebookLogo}
             alt="Facebook logo"
-            className="pr-1 h-75"
+            className="p-3 h-100"
           />
         </a>
         <a href="https://www.instagram.com/h.b_creative/">
           <img
             src={instagramLogo}
             alt="Instagram logo"
-            className="pl-1 h-75"
+            className="p-3 h-100"
           />
         </a>
       </div>

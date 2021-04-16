@@ -64,7 +64,7 @@ function Home() {
               </div>
               <p>Check out my full bio for more.</p>
             </div>
-            <a className="btn btn-primary my-5" type="button" href="/about">ABOUT</a>
+            <a className="btn btn-primary my-5" href="/about">ABOUT</a>
           </div>
 
         </div>
@@ -84,7 +84,7 @@ function Home() {
               unique pieces for clients or bespoke commissions.
             </p>
             <div className="m-5  pl-md-5 pl-0 ">
-              <a className="btn btn-primary" type="button" href="/contact">CONTACT</a>
+              <a className="btn btn-primary" href="/contact">CONTACT</a>
             </div>
           </div>
           <div className="col-12 col-md-6 pr-0 pl-4 my-5 my-md-0 mb-md-0">

@@ -4,6 +4,7 @@ import styles from '../styles/burger.module.css';
 function Burger({ collapsed, setCollapsed }) {
   return (
     <button
+      aria-label={`Menu ${collapsed ? 'open' : 'close'}`}
       className={`${styles.bunButton} button shadow-none col-4 align-items-center`}
       onClick={() => { setCollapsed(); }}
     >

@@ -18,7 +18,7 @@ function Contact() {
               please just drop me an email and I&apos;ll get back to you in 24 - 48 hours.
             </p>
             <div className="m-5 pl-md-5 pl-0">
-              <a className="btn btn-primary" type="button" href="mailto:holsyb_creative@outlook.com?subject=Website Enquiry" target="_blank" rel="noreferrer">CONTACT</a>
+              <a className="btn btn-primary" href="mailto:holsyb_creative@outlook.com?subject=Website Enquiry" target="_blank" rel="noreferrer">CONTACT</a>
             </div>
           </div>
           <div className="col-12 col-md-6 pr-0 pl-4 my-5 my-md-0 mb-md-0">

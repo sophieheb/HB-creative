@@ -54,7 +54,7 @@ function About() {
                 Growing-up by the sea has definitely influenced my work
                 - I&apos;ve travelled around the world and I can hands-down say,
                 the place that always calls me home is Mudeford Sanspit;
-                a place I feel most inspirated
+                a place I feel most inspired
                 and where I spent a lot of my childhood.
               </p>
               <p>
@@ -77,14 +77,17 @@ function About() {
       <div className="container-fluid">
         <div className="row py-5 mt-5">
           <div className="col-11 col-md-6 pl-0 pr-md-4 pr-0">
-            <h1 className="text-right pl-4">WORKING TOGETHER</h1>
+            <h1 className="text-right pl-4 mb-0">WORKING TOGETHER</h1>
             <hr className="my-5" />
-            <p className="ml-5 pl-md-5 pl-0 pr-4">
+            <p className="ml-5 pl-md-5 pl-0 pr-4 mb-0">
               I love working with people to deliver their vision;
               it&apos;s always so special and humbling to hear
-              people want my work hung in their house.
+              people want my work in their house.
               It&apos;s a real honour for me. So I&apos;d love to hear from you, just get in touch.
             </p>
+            <div className="m-5  pl-md-5 pl-0 ">
+              <a className="btn btn-primary" href="/contact">CONTACT</a>
+            </div>
           </div>
           <div className="col-12 col-md-6 pr-0 pl-4 my-5 my-md-0 mb-md-0">
             <img
