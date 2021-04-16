@@ -26,16 +26,17 @@ function Header() {
         <Navbar
           className="mx-5 navbar-light"
         >
-          <Nav className="col-5 col-md-4 flex-column flex-md-row">
-            <div className="row w-100">
+          <div className="col-5 col-md-4 ">
+            <Nav className="w-100 flex-column flex-md-row">
+              <Nav.Link href="/" className=" text-left text-md-center col-12 col-md-6 p-0">
+                HOME
+              </Nav.Link>
               <Nav.Link href="works" className=" text-left text-md-center col-12 col-md-6 p-0">
                 WORKS
               </Nav.Link>
-              <Nav.Link href="shop" className=" text-left text-md-center col-12 col-md-6 p-0">
-                SHOP
-              </Nav.Link>
-            </div>
-          </Nav>
+
+            </Nav>
+          </div>
           <Navbar.Brand href="/" className="col-2 col-md-4 mr-0 py-sm-4 py-0 text-center">
             <img
               src={logo}
@@ -43,16 +44,16 @@ function Header() {
               alt="HB Creative logo"
             />
           </Navbar.Brand>
-          <Nav className="col-5 col-md-4 d-flex justify-content-end flex-column flex-md-row">
-            <div className="row w-100">
+          <div className="col-5 col-md-4 d-flex justify-content-end ">
+            <Nav className="w-100 flex-column flex-md-row">
               <Nav.Link href="about" className="text-right text-md-center col-12 col-md-6 p-0">
                 ABOUT
               </Nav.Link>
               <Nav.Link href="contact" className="text-right  text-md-center  col-12 col-md-6 p-0">
                 CONTACT
               </Nav.Link>
-            </div>
-          </Nav>
+            </Nav>
+          </div>
         </Navbar>
       </BrowserView>
 
@@ -70,14 +71,14 @@ function Header() {
               </Navbar.Brand>
               <div className="col-4 text-center">
                 <div className="row justify-content-center">
-                  <a href="https://www.instagram.com/h.b_creative/">
+                  <a href="https://www.instagram.com/h.b_creative/" target="_blank" rel="noreferrer">
                     <img
                       src={instagramLogo}
                       alt="Instagram logo"
                       className="pr-1 h-75"
                     />
                   </a>
-                  <a href="https://www.facebook.com/HollyButlerCreative">
+                  <a href="https://www.facebook.com/HollyButlerCreative" target="_blank" rel="noreferrer">
                     <img
                       src={facebookLogo}
                       alt="Facebook logo"
@@ -97,7 +98,6 @@ function Header() {
                   <Nav className="flex-column px-5 pt-5">
                     <Nav.Link href="/" className="text-secondary text-center">HOME</Nav.Link>
                     <Nav.Link href="works" className="text-secondary text-center">WORKS</Nav.Link>
-                    <Nav.Link href="shop" className="text-secondary text-center">SHOP</Nav.Link>
                     <Nav.Link href="about" className="text-secondary text-center">ABOUT</Nav.Link>
                     <Nav.Link href="contact" className="text-secondary text-center">CONTACT</Nav.Link>
                   </Nav>

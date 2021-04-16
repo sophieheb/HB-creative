@@ -83,10 +83,10 @@ function Works() {
       <div className="container-fluid">
         <div className="row py-5 mt-5">
           <div className="col-md-6 col-11 pl-0">
-            <h1 className="text-right">BESPOKE ART</h1>
+            <h1 className="text-right mb-0">BESPOKE ART</h1>
             <hr className="my-5" />
-            <p className="ml-5 pl-5 pr-4">Painting and drawing has always been a part of my life. I progressed with it through school, then later at Bournemouth Arts Uni but only found my true groove with it in the last few years; finding peace with it, like a form of therapy.</p>
-            <div className="ml-5 pl-5">
+            <p className="ml-5 pl-5 pr-4 mb-0">Rich, layered textures and a soothing colour palette create eye-catching depth; something new to see at every glace and a lovely addition to any coastal lover&apos;s home.</p>
+            <div className="m-5 pl-5">
               <a className="btn btn-primary" type="button" href="/contact">CONTACT</a>
             </div>
           </div>

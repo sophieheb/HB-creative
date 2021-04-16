@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../styles/footer.module.css';
+import styles from '../styles/footer.module.css';
 import facebookLogo from '../assets/facebookLogo.svg';
 import instagramLogo from '../assets/instagramLogo.svg';
 import logo from '../assets/logo-light.png';
@@ -20,10 +20,11 @@ function Footer() {
       <div
         className="row mx-auto py-4 justify-content-center"
       >
-        <a className="text-white col-md-2 col-12 text-center" href="works">WORKS</a>
-        <a className="text-white col-md-2 col-12 text-center" href="shop">SHOP</a>
-        <a className="text-white col-md-2 col-12 text-center" href="about">ABOUT</a>
-        <a className="text-white col-md-2 col-12 text-center" href="contact">CONTACT</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="/">HOME</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="works">WORKS</a>
+
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="about">ABOUT</a>
+        <a className={`${styles.footer_link} col-md-2 col-12 text-center`} href="contact">CONTACT</a>
       </div>
       <div className="row justify-content-center">
         <a href="https://www.facebook.com/HollyButlerCreative">

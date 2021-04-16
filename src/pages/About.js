@@ -30,7 +30,7 @@ function About() {
             <img
               src={holly}
               className="img-fluid"
-              alt="Photo of Holly infront of her work."
+              alt="Holly infront of her work."
             />
           </div>
         </div>
@@ -42,7 +42,7 @@ function About() {
             <img
               src={brush}
               className="img-fluid"
-              alt="Photo of Holly's brushes"
+              alt="Holly's brushes"
             />
           </div>
           <div className="col-12 col-md-6  pt-5 pt-md-0 pl-5 pr-0">

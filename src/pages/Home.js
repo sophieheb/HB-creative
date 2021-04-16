@@ -43,7 +43,7 @@ function Home() {
             />
           </div>
           <div className="col-12 col-md-6  pt-5 pt-md-0 pl-5 pr-0">
-            <h1>HEY, I&apos;M HOLLY</h1>
+            <h1 className="mb-0">HEY, I&apos;M HOLLY</h1>
             <hr className="my-5" />
             <div className="pr-5">
               <div className="pb-3">
@@ -63,9 +63,8 @@ function Home() {
 
               </div>
               <p>Check out my full bio for more.</p>
-              <a className="btn btn-primary" type="button" href="/about">ABOUT</a>
-
             </div>
+            <a className="btn btn-primary my-5" type="button" href="/about">ABOUT</a>
           </div>
 
         </div>
@@ -76,15 +75,15 @@ function Home() {
       <div className="container-fluid">
         <div className="row py-5 mt-5">
           <div className="col-11 col-md-6 pl-0 pr-md-4 pr-0">
-            <h1 className="text-right pl-4">WORKING TOGETHER</h1>
+            <h1 className="text-right pl-4 mb-0">WORKING TOGETHER</h1>
             <hr className="my-5" />
-            <p className="ml-5 pl-md-5 pl-0 pr-4">
+            <p className="ml-5 pl-md-5 pl-0 pr-4 mb-0">
               If you&apos;re an interior designer, stylist or someone
               looking for that special something for your space,
               please get in touch to chat about finding/creating
               unique pieces for clients or bespoke commissions.
             </p>
-            <div className="ml-5 pl-md-5 pl-0 ">
+            <div className="m-5  pl-md-5 pl-0 ">
               <a className="btn btn-primary" type="button" href="/contact">CONTACT</a>
             </div>
           </div>
