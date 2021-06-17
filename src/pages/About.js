@@ -53,7 +53,7 @@ function About() {
                 {' '}
                 Growing-up by the sea has definitely influenced my work
                 - I&apos;ve travelled around the world and I can hands-down say,
-                the place that always calls me home is Mudeford Sanspit;
+                the place that always calls me home is Mudeford Sandbank;
                 a place I feel most inspired
                 and where I spent a lot of my childhood.
               </p>
