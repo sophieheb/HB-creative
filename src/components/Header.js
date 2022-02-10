@@ -28,8 +28,8 @@ function Header() {
         >
           <div className="col-5 col-md-4 ">
             <Nav className="w-100 flex-column flex-md-row">
-              <Nav.Link href="/" className=" text-left text-md-center col-12 col-md-6 p-0">
-                HOME
+              <Nav.Link href="https://hbcreative.bigcartel.com/products" className=" text-left text-md-center col-12 col-md-6 p-0">
+                SHOP
               </Nav.Link>
               <Nav.Link href="works" className=" text-left text-md-center col-12 col-md-6 p-0">
                 WORKS
@@ -97,6 +97,7 @@ function Header() {
                 <div className={`row vh-100 position-absolute ${styles.menu}`}>
                   <Nav className="flex-column px-5 pt-5">
                     <Nav.Link href="/" className="text-secondary text-center">HOME</Nav.Link>
+                    <Nav.Link href="https://hbcreative.bigcartel.com/products" className="text-secondary text-center">SHOP</Nav.Link>
                     <Nav.Link href="works" className="text-secondary text-center">WORKS</Nav.Link>
                     <Nav.Link href="about" className="text-secondary text-center">ABOUT</Nav.Link>
                     <Nav.Link href="contact" className="text-secondary text-center">CONTACT</Nav.Link>
